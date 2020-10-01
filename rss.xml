@@ -15,33 +15,8 @@
     <atom:link href="https://prcolaco.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 30 Sep 2020 21:25:50 GMT</pubDate>
+    <pubDate>Wed, 30 Sep 2020 21:25:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>New website and blog</title>
-      <link>https://prcolaco.com/general/new-website/</link>
-      <guid>https://prcolaco.com/general/new-website/</guid>
-      <pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate>
-      
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://prcolaco.com/&quot;&gt;prcolaco.com&lt;/a&gt;! This is my very first post on this new website and blog… :)&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://prcolaco.com/categories/general/">general</category>
-      
-      
-      <category domain="https://prcolaco.com/tags/welcome/">welcome</category>
-      
-      <category domain="https://prcolaco.com/tags/website/">website</category>
-      
-      <category domain="https://prcolaco.com/tags/blog/">blog</category>
-      
-      
-      <comments>https://prcolaco.com/general/new-website/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>Novo website e blog</title>
@@ -65,6 +40,31 @@
       
       
       <comments>https://prcolaco.com/general/novo-website/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>New website and blog</title>
+      <link>https://prcolaco.com/general/new-website/</link>
+      <guid>https://prcolaco.com/general/new-website/</guid>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://prcolaco.com/&quot;&gt;prcolaco.com&lt;/a&gt;! This is my very first post on this new website and blog… :)&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://prcolaco.com/categories/general/">general</category>
+      
+      
+      <category domain="https://prcolaco.com/tags/welcome/">welcome</category>
+      
+      <category domain="https://prcolaco.com/tags/website/">website</category>
+      
+      <category domain="https://prcolaco.com/tags/blog/">blog</category>
+      
+      
+      <comments>https://prcolaco.com/general/new-website/#disqus_thread</comments>
       
     </item>
     
