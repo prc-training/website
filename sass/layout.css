@@ -201,7 +201,7 @@ h3, h4, h5 {
     font-size: 20px; } }
 
 #blog {
-  padding: 20px 60px; }
+  padding: 20px 0px; }
   #blog .widget-list-container {
     padding-top: 60px; }
   #blog img {
@@ -239,7 +239,7 @@ h3, h4, h5 {
     padding: 0px; } }
 
 #page {
-  padding: 20px 60px; }
+  padding: 20px 0px; }
   #page .widget-list-container {
     padding-top: 60px; }
   #page img {
@@ -253,7 +253,7 @@ h3, h4, h5 {
     padding: 0px; } }
 
 #post {
-  padding: 20px 60px; }
+  padding: 20px 0px; }
   #post .widget-list-container {
     padding-top: 60px; }
   #post img {
