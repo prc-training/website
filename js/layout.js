@@ -11,6 +11,15 @@ var Layout = function () {
         ) ? true : false);
     }
 
+    // Open In App script for apps than need a smart url like Facebook
+    var openInApp = function (smarturl) {
+      if (smarturl && isMobileDevice()) {
+        window.location.href = smarturl;
+        return false;   // preventDefault
+      }
+    }
+    window.openInApp = openInApp;   // register for global use
+
     // handle header for other pages
     var handleHeaderOtherPages = function () {
         $('.js_nav-item a').each(function () {
