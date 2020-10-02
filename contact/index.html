@@ -180,6 +180,31 @@
         <h1>Contact</h1>
 
         <p>Sometimes it gets a bit overwhelming to handle all the inquiries, so please provide the most information about your request. This way my team and I can get back to you faster and provide the information you need right away. Thank you.</p>
+<div class="contact-email-form ">
+  <h3>Inquiry type:</h3>
+  <style>
+    .contacthiddenlink {
+      display: none;
+    }  
+  </style>
+  <a href="mailto:info@prcolaco.com?subject=Generic%20contact%20from%20website&body=Hi%2C%20This%20is%20a%20generic%20contact%20from%20prcolaco.com%20website.%0A%0AName%3A%20%0AInquiry%3A%20%0A%0AThank%20you" title="Generic" class="contacthiddenlink" id="contacthiddenlink0">Generic</a>
+<a href="mailto:call@prcolaco.com?subject=Schedule%20Live%20Q%26A%20Session&body=Hi%2C%20This%20is%20a%20schedule%20request%20for%20a%20Live%20Q%26A%20Session.%0A%0AName%3A%20%0ADate%20availability%3A%20%0APreferred%20time%20slot%3A%20%0AEstimated%20duration%3A%20%0ATime%20zone%3A%20%0ATopics%20for%20discussion%3A%20%0AUrgency%3A%20%0A%0AI%20would%20like%20to%20receive%20a%20quote%20for%20this%20service%20and%20I%20understand%20that%20the%20value%20will%20depend%20on%20the%20availability%20and%20time%20slots.%0A%0AThank%20you" title="Schedule Live Q&amp;A Session" class="contacthiddenlink" id="contacthiddenlink1">Schedule Live Q&amp;A Session</a>
+<a href="mailto:training@prcolaco.com?subject=Tailored%20Training%20Request&body=Hi%2C%20This%20is%20a%20request%20for%20a%20quote%20for%20a%20tailored%20training%20and%20availability.%0A%0AName%3A%20%0ASubject%20of%20Training%3A%20%0AOnline%20or%20On-site%3A%20%0ALocation%3A%20%0ASpecial%20Requirements%3A%20%0ADesired%20dates%3A%20%0AEstimated%20duration%3A%20%0ARequire%20final%20exam%3A%20%0A%0AThank%20you" title="Tailored Training" class="contacthiddenlink" id="contacthiddenlink2">Tailored Training</a>
+<a href="mailto:coaching@prcolaco.com?subject=Coaching%20or%20Consulting%20Request&body=Hi%2C%20This%20is%20a%20request%20for%20a%20quote%20for%20coaching%20or%20consultation%20and%20availability.%0A%0AName%3A%20%0AService%3A%20Coaching%2FConsulting%0ADuration%3A%20%0AStarting%3A%20%0AObjectives%3A%20%0APlace%3A%20%0ASpecial%20requirements%3A%20%0A%0AThank%20you" title="Coaching and Consulting" class="contacthiddenlink" id="contacthiddenlink3">Coaching and Consulting</a>
+  <input type="radio" id="opt0" name="contactchoice" value="0" checked> <label for="opt0">Generic</label><br>
+<input type="radio" id="opt1" name="contactchoice" value="1" > <label for="opt1">Schedule Live Q&A Session</label><br>
+<input type="radio" id="opt2" name="contactchoice" value="2" > <label for="opt2">Tailored Training</label><br>
+<input type="radio" id="opt3" name="contactchoice" value="3" > <label for="opt3">Coaching and Consulting</label><br>
+  <br>
+  <p>When you click the next button your own email application will open with a pre formatted email ready to be filled and sent to me. Please try to fill in all the fields in your inquiry.</p>
+  <button type="button" class="btn btn-info btn-lg" onclick="sendContactEmail()">Open Email</button>
+  <script>
+    function sendContactEmail() {
+      var selected = document.querySelector('input[name="contactchoice"]:checked').value;
+      document.getElementById('contacthiddenlink'+selected).click();
+    }
+  </script>
+</div>
 
       </div>
       

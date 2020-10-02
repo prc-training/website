@@ -179,7 +179,32 @@
       <div class="post-container col-md-8">
         <h1>Contacto</h1>
 
-        <p>Por vezes torna-se um pouco complicado tratar todos os pedidos de informação, por isso agradeço que providencie toda a informação possível junto com o seu pedido. Desta forma a minha equipa e eu podemos responder de volta mais rápido e logo com toda a informação que pretende. Obrigado.</p>
+        <p>Por vezes torna-se um pouco exigente tratar todos os pedidos de informação, por isso agradeço que providencie toda a informação possível junto com o seu pedido. Desta forma a minha equipa e eu poderemos responder-lhe mais rápido e com toda a informação que pretende. Obrigado.</p>
+<div class="contact-email-form ">
+  <h3>Tipo de informação:</h3>
+  <style>
+    .contacthiddenlink {
+      display: none;
+    }  
+  </style>
+  <a href="mailto:info@prcolaco.com?subject=Contacto%20gen%C3%A9rico%20do%20website&body=Ol%C3%A1%2C%20Este%20%C3%A9%20um%20contacto%20gen%C3%A9rico%20do%20website%20prcolaco.com.%0A%0ANome%3A%20%0AInforma%C3%A7%C3%A3o%20pretendida%3A%20%0A%0AObrigado" title="Genérico" class="contacthiddenlink" id="contacthiddenlink0">Genérico</a>
+<a href="mailto:call@prcolaco.com?subject=Marcar%20Sess%C3%A3o%20P%26R%20Live&body=Ol%C3%A1%2C%20Este%20%C3%A9%20um%20pedido%20de%20marca%C3%A7%C3%A3o%20de%20sess%C3%A3o%20de%20perguntas%20e%20respostas%20live.%0A%0ANome%3A%20%0ADatas%20dispon%C3%ADveis%3A%20%0AHor%C3%A1rio%20pretendido%3A%20%0ADura%C3%A7%C3%A3o%20estimada%3A%20%0ATime%20zone%3A%20%0AT%C3%B3picos%20para%20abordar%3A%20%0AUrg%C3%AAncia%3A%20%0A%0AEu%20gostaria%20de%20receber%20uma%20cota%C3%A7%C3%A3o%20para%20este%20servi%C3%A7o%2C%20e%20percebo%20que%20esse%20montante%20estar%C3%A1%20dependente%20da%20disponibilidade%20de%20hor%C3%A1rios.%0A%0AObrigado" title="Marcar Sessão P&amp;R Live" class="contacthiddenlink" id="contacthiddenlink1">Marcar Sessão P&amp;R Live</a>
+<a href="mailto:training@prcolaco.com?subject=Contacto%20sobre%20Treino%20por%20Medida&body=Ol%C3%A1%2C%20Este%20%C3%A9%20um%20pedido%20de%20informa%C3%A7%C3%A3o%20de%20disponibilidade%20e%20cota%C3%A7%C3%A3o%20para%20treino%20ou%20forma%C3%A7%C3%A3o%20por%20medida.%0A%0ANome%3A%20%0AAssunto%20do%20Treino%3A%20%0AOnline%20ou%20On-site%3A%20%0ALocaliza%C3%A7%C3%A3o%3A%20%0ARequerimentos%20Especiais%3A%20%0ADatas%20dedejadas%3A%20%0ADura%C3%A7%C3%A3o%20estimada%3A%20%0AExame%20final%3A%20%0A%0AObrigado" title="Treino por Medida" class="contacthiddenlink" id="contacthiddenlink2">Treino por Medida</a>
+<a href="mailto:coaching@prcolaco.com?subject=Contacto%20sobre%20Coaching%20ou%20Consultoria&body=Ol%C3%A1%2C%20Este%20%C3%A9%20um%20pedido%20de%20informa%C3%A7%C3%A3o%20de%20disponibilidade%20e%20cota%C3%A7%C3%A3o%20para%20coaching%20ou%20consultoria.%0A%0ANome%3A%20%0AServi%C3%A7o%3A%20Coaching%2FConsultoria%0ADura%C3%A7%C3%A3o%3A%20%0AIn%C3%ADcio%3A%20%0AObjectivos%3A%20%0ALocaliza%C3%A7%C3%A3o%3A%20%0ARequerimentos%20Especiais%3A%20%0A%0AObrigado" title="Coaching e Consultoria" class="contacthiddenlink" id="contacthiddenlink3">Coaching e Consultoria</a>
+  <input type="radio" id="opt0" name="contactchoice" value="0" checked> <label for="opt0">Genérico</label><br>
+<input type="radio" id="opt1" name="contactchoice" value="1" > <label for="opt1">Marcar Sessão P&R Live</label><br>
+<input type="radio" id="opt2" name="contactchoice" value="2" > <label for="opt2">Treino por Medida</label><br>
+<input type="radio" id="opt3" name="contactchoice" value="3" > <label for="opt3">Coaching e Consultoria</label><br>
+  <br>
+  <p>Ao clicar no seguinte botão a sua aplicação de email irá abrir com um email já preparado para preencher e enviar-me. Por favor tente preencher todos os campos do seu pedido.</p>
+  <button type="button" class="btn btn-info btn-lg" onclick="sendContactEmail()">Abrir Email</button>
+  <script>
+    function sendContactEmail() {
+      var selected = document.querySelector('input[name="contactchoice"]:checked').value;
+      document.getElementById('contacthiddenlink'+selected).click();
+    }
+  </script>
+</div>
 
       </div>
       
