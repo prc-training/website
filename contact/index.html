@@ -199,11 +199,29 @@
   <p>When you click the next button your own email application will open with a pre formatted email ready to be filled and sent to me. Please try to fill in all the fields in your inquiry.</p>
   <button type="button" class="btn btn-info btn-lg" onclick="sendContactEmail()">Open Email</button>
   <script>
-    function sendContactEmail() {
-      var selected = document.querySelector('input[name="contactchoice"]:checked').value;
-      document.getElementById('contacthiddenlink'+selected).click();
+  function sendContactEmail() {
+    var selected = document.querySelector('input[name="contactchoice"]:checked').value;
+    document.getElementById('contacthiddenlink'+selected).click();
+  }
+
+  function getUrlParams() {
+    const query = window.location.search.slice(1);
+    const params = {};
+    query.split('&').map(q => {
+      const parts = q.split('=');
+      params[parts[0]] = parts.length > 1 ? parts[1] : true;
+    });
+    return params;
+  }
+
+  window.addEventListener("load", function () {
+    const params = getUrlParams();
+    if (params.hasOwnProperty('opt')) {
+      const opt = document.getElementById('opt' + params.opt);
+      if (opt) opt.checked = true;
     }
-  </script>
+  });
+</script>
 </div>
 
       </div>
