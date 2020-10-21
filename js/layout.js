@@ -164,6 +164,11 @@ var Layout = function () {
             e.stopPropagation();
             overlay.removeClass('work-popup-overlay-show');
         });
+
+        overlay.on('click', function (e) {
+            e.stopPropagation();
+            overlay.removeClass('work-popup-overlay-show');
+        });
     }
 
     return {

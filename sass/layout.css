@@ -532,6 +532,16 @@ img.platform-logo {
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .work .work-popup-main p {
+    font-size: .9em; }
+  .work .work-popup-sidebar {
+    font-size: .8em; }
+    .work .work-popup-sidebar .work-launch-timer {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: large;
+      font-weight: bold;
+      text-align: center; }
   .work .work-overlay-label {
     position: absolute;
     bottom: 0px;
