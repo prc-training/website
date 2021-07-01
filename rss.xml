@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pedro Reis Colaço</title>
+    <link>https://prcolaco.com/</link>
+    
+    <image>
+      <url>https://prcolaco.com/img/logo-dark.png</url>
+      <title>Pedro Reis Colaço</title>
+      <link>https://prcolaco.com/</link>
+    </image>
+    
+    <atom:link href="https://prcolaco.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 01 Jul 2021 11:33:12 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>New website and blog</title>
+      <link>https://prcolaco.com/general/new-website/</link>
+      <guid>https://prcolaco.com/general/new-website/</guid>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://prcolaco.com/&quot;&gt;prcolaco.com&lt;/a&gt;! This is my very first post on this new website and blog… :)&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://prcolaco.com/categories/general/">general</category>
+      
+      
+      <category domain="https://prcolaco.com/tags/welcome/">welcome</category>
+      
+      <category domain="https://prcolaco.com/tags/website/">website</category>
+      
+      <category domain="https://prcolaco.com/tags/blog/">blog</category>
+      
+      
+      <comments>https://prcolaco.com/general/new-website/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Novo website e blog</title>
+      <link>https://prcolaco.com/general/novo-website/</link>
+      <guid>https://prcolaco.com/general/novo-website/</guid>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;Bem-vindo ao &lt;a href=&quot;https://prcolaco.com/&quot;&gt;prcolaco.com&lt;/a&gt;! Este é o meu primeiro post neste novo website e blog… :)&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://prcolaco.com/categories/general/">general</category>
+      
+      
+      <category domain="https://prcolaco.com/tags/welcome/">welcome</category>
+      
+      <category domain="https://prcolaco.com/tags/website/">website</category>
+      
+      <category domain="https://prcolaco.com/tags/blog/">blog</category>
+      
+      
+      <comments>https://prcolaco.com/general/novo-website/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
